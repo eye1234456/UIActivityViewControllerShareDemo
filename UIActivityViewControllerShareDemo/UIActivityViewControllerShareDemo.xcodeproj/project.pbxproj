@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F26AC6B8AFB057E87AAF648 /* Pods_UIActivityViewControllerShareDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F2AC747E547EB7AA9D270E /* Pods_UIActivityViewControllerShareDemoTests.framework */; };
+		5781DEDB27E999AC00A8F60D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEDA27E999AC00A8F60D /* AppDelegate.m */; };
+		5781DEDE27E999AC00A8F60D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEDD27E999AC00A8F60D /* SceneDelegate.m */; };
+		5781DEE127E999AC00A8F60D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEE027E999AC00A8F60D /* ViewController.m */; };
+		5781DEE427E999AC00A8F60D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5781DEE227E999AC00A8F60D /* Main.storyboard */; };
+		5781DEE627E999BA00A8F60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5781DEE527E999BA00A8F60D /* Assets.xcassets */; };
+		5781DEE927E999BA00A8F60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5781DEE727E999BA00A8F60D /* LaunchScreen.storyboard */; };
+		5781DEEC27E999BA00A8F60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEEB27E999BA00A8F60D /* main.m */; };
+		5781DEF627E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEF527E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.m */; };
+		5781DF0027E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEFF27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.m */; };
+		5781DF0227E999BA00A8F60D /* UIActivityViewControllerShareDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DF0127E999BA00A8F60D /* UIActivityViewControllerShareDemoUITestsLaunchTests.m */; };
+		5781DF1727E9A20B00A8F60D /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DF1627E9A20B00A8F60D /* BaseTableViewController.m */; };
+		5781DF1A27E9AB6800A8F60D /* ShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DF1927E9AB6800A8F60D /* ShareModel.m */; };
+		5781DF1E27E9B1FC00A8F60D /* ShareDemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DF1C27E9B1FC00A8F60D /* ShareDemoTableViewCell.m */; };
+		5781DF1F27E9B1FC00A8F60D /* ShareDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5781DF1D27E9B1FC00A8F60D /* ShareDemoTableViewCell.xib */; };
+		5781DF2227E9C60900A8F60D /* ShareViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DF2127E9C60900A8F60D /* ShareViewModel.m */; };
+		5781DF2627E9C7AC00A8F60D /* UIImage+AppIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DF2527E9C7AC00A8F60D /* UIImage+AppIcon.m */; };
+		99695ED8D853B190B8CABC97 /* Pods_UIActivityViewControllerShareDemo_UIActivityViewControllerShareDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B83DABCC5A2ADF0BA645BED /* Pods_UIActivityViewControllerShareDemo_UIActivityViewControllerShareDemoUITests.framework */; };
+		A28DE65F989992EB48FF4336 /* Pods_UIActivityViewControllerShareDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CDCB34255273CFAE17D5E5 /* Pods_UIActivityViewControllerShareDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5781DEF227E999BA00A8F60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5781DECE27E999AB00A8F60D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5781DED527E999AC00A8F60D;
+			remoteInfo = UIActivityViewControllerShareDemo;
+		};
+		5781DEFC27E999BA00A8F60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5781DECE27E999AB00A8F60D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5781DED527E999AC00A8F60D;
+			remoteInfo = UIActivityViewControllerShareDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E10D3D2DBDC51CCF2D02649 /* Pods-UIActivityViewControllerShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemo.release.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemo/Pods-UIActivityViewControllerShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		18F2AC747E547EB7AA9D270E /* Pods_UIActivityViewControllerShareDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIActivityViewControllerShareDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E3259A27D6AB2213E7AA18 /* Pods-UIActivityViewControllerShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemo/Pods-UIActivityViewControllerShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE9461BB63EB27016516AD6 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5781DED627E999AC00A8F60D /* UIActivityViewControllerShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIActivityViewControllerShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5781DED927E999AC00A8F60D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5781DEDA27E999AC00A8F60D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5781DEDC27E999AC00A8F60D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5781DEDD27E999AC00A8F60D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5781DEDF27E999AC00A8F60D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5781DEE027E999AC00A8F60D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5781DEE327E999AC00A8F60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5781DEE527E999BA00A8F60D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5781DEE827E999BA00A8F60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5781DEEA27E999BA00A8F60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5781DEEB27E999BA00A8F60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5781DEF127E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIActivityViewControllerShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5781DEF527E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityViewControllerShareDemoTests.m; sourceTree = "<group>"; };
+		5781DEFB27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIActivityViewControllerShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5781DEFF27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityViewControllerShareDemoUITests.m; sourceTree = "<group>"; };
+		5781DF0127E999BA00A8F60D /* UIActivityViewControllerShareDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityViewControllerShareDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5781DF1527E9A20B00A8F60D /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		5781DF1627E9A20B00A8F60D /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		5781DF1827E9AB6700A8F60D /* ShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareModel.h; sourceTree = "<group>"; };
+		5781DF1927E9AB6800A8F60D /* ShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareModel.m; sourceTree = "<group>"; };
+		5781DF1B27E9B1FC00A8F60D /* ShareDemoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareDemoTableViewCell.h; sourceTree = "<group>"; };
+		5781DF1C27E9B1FC00A8F60D /* ShareDemoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareDemoTableViewCell.m; sourceTree = "<group>"; };
+		5781DF1D27E9B1FC00A8F60D /* ShareDemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareDemoTableViewCell.xib; sourceTree = "<group>"; };
+		5781DF2027E9C60900A8F60D /* ShareViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewModel.h; sourceTree = "<group>"; };
+		5781DF2127E9C60900A8F60D /* ShareViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewModel.m; sourceTree = "<group>"; };
+		5781DF2427E9C7AC00A8F60D /* UIImage+AppIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+AppIcon.h"; sourceTree = "<group>"; };
+		5781DF2527E9C7AC00A8F60D /* UIImage+AppIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AppIcon.m"; sourceTree = "<group>"; };
+		6B83DABCC5A2ADF0BA645BED /* Pods_UIActivityViewControllerShareDemo_UIActivityViewControllerShareDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIActivityViewControllerShareDemo_UIActivityViewControllerShareDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8469EB01265B5793C85B39B8 /* Pods-UIActivityViewControllerShareDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemoTests/Pods-UIActivityViewControllerShareDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99CDCB34255273CFAE17D5E5 /* Pods_UIActivityViewControllerShareDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIActivityViewControllerShareDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD9DF170CAB1DEEB40F396A /* Pods-UIActivityViewControllerShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemoTests.release.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemoTests/Pods-UIActivityViewControllerShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0A87C539B52F54AF0937ED1 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5781DED327E999AC00A8F60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28DE65F989992EB48FF4336 /* Pods_UIActivityViewControllerShareDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781DEEE27E999BA00A8F60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F26AC6B8AFB057E87AAF648 /* Pods_UIActivityViewControllerShareDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781DEF827E999BA00A8F60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99695ED8D853B190B8CABC97 /* Pods_UIActivityViewControllerShareDemo_UIActivityViewControllerShareDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481818ABB0FADC5A1FB54984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E3259A27D6AB2213E7AA18 /* Pods-UIActivityViewControllerShareDemo.debug.xcconfig */,
+				0E10D3D2DBDC51CCF2D02649 /* Pods-UIActivityViewControllerShareDemo.release.xcconfig */,
+				4FE9461BB63EB27016516AD6 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig */,
+				F0A87C539B52F54AF0937ED1 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.release.xcconfig */,
+				8469EB01265B5793C85B39B8 /* Pods-UIActivityViewControllerShareDemoTests.debug.xcconfig */,
+				EAD9DF170CAB1DEEB40F396A /* Pods-UIActivityViewControllerShareDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5781DECD27E999AB00A8F60D = {
+			isa = PBXGroup;
+			children = (
+				5781DED827E999AC00A8F60D /* UIActivityViewControllerShareDemo */,
+				5781DEF427E999BA00A8F60D /* UIActivityViewControllerShareDemoTests */,
+				5781DEFE27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests */,
+				5781DED727E999AC00A8F60D /* Products */,
+				481818ABB0FADC5A1FB54984 /* Pods */,
+				80DF2602FEA3F87CACC91727 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5781DED727E999AC00A8F60D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5781DED627E999AC00A8F60D /* UIActivityViewControllerShareDemo.app */,
+				5781DEF127E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.xctest */,
+				5781DEFB27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5781DED827E999AC00A8F60D /* UIActivityViewControllerShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5781DF2727E9D36400A8F60D /* Model */,
+				5781DF2327E9C79600A8F60D /* Extension */,
+				5781DF1127E9A16200A8F60D /* Controllers */,
+				5781DED927E999AC00A8F60D /* AppDelegate.h */,
+				5781DEDA27E999AC00A8F60D /* AppDelegate.m */,
+				5781DEDC27E999AC00A8F60D /* SceneDelegate.h */,
+				5781DEDD27E999AC00A8F60D /* SceneDelegate.m */,
+				5781DEDF27E999AC00A8F60D /* ViewController.h */,
+				5781DEE027E999AC00A8F60D /* ViewController.m */,
+				5781DEE227E999AC00A8F60D /* Main.storyboard */,
+				5781DEE527E999BA00A8F60D /* Assets.xcassets */,
+				5781DEE727E999BA00A8F60D /* LaunchScreen.storyboard */,
+				5781DEEA27E999BA00A8F60D /* Info.plist */,
+				5781DEEB27E999BA00A8F60D /* main.m */,
+			);
+			path = UIActivityViewControllerShareDemo;
+			sourceTree = "<group>";
+		};
+		5781DEF427E999BA00A8F60D /* UIActivityViewControllerShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5781DEF527E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.m */,
+			);
+			path = UIActivityViewControllerShareDemoTests;
+			sourceTree = "<group>";
+		};
+		5781DEFE27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5781DEFF27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.m */,
+				5781DF0127E999BA00A8F60D /* UIActivityViewControllerShareDemoUITestsLaunchTests.m */,
+			);
+			path = UIActivityViewControllerShareDemoUITests;
+			sourceTree = "<group>";
+		};
+		5781DF1127E9A16200A8F60D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5781DF1527E9A20B00A8F60D /* BaseTableViewController.h */,
+				5781DF1627E9A20B00A8F60D /* BaseTableViewController.m */,
+				5781DF1B27E9B1FC00A8F60D /* ShareDemoTableViewCell.h */,
+				5781DF1C27E9B1FC00A8F60D /* ShareDemoTableViewCell.m */,
+				5781DF1D27E9B1FC00A8F60D /* ShareDemoTableViewCell.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5781DF2327E9C79600A8F60D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5781DF2427E9C7AC00A8F60D /* UIImage+AppIcon.h */,
+				5781DF2527E9C7AC00A8F60D /* UIImage+AppIcon.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5781DF2727E9D36400A8F60D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5781DF1827E9AB6700A8F60D /* ShareModel.h */,
+				5781DF1927E9AB6800A8F60D /* ShareModel.m */,
+				5781DF2027E9C60900A8F60D /* ShareViewModel.h */,
+				5781DF2127E9C60900A8F60D /* ShareViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80DF2602FEA3F87CACC91727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99CDCB34255273CFAE17D5E5 /* Pods_UIActivityViewControllerShareDemo.framework */,
+				6B83DABCC5A2ADF0BA645BED /* Pods_UIActivityViewControllerShareDemo_UIActivityViewControllerShareDemoUITests.framework */,
+				18F2AC747E547EB7AA9D270E /* Pods_UIActivityViewControllerShareDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5781DED527E999AC00A8F60D /* UIActivityViewControllerShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781DF0527E999BB00A8F60D /* Build configuration list for PBXNativeTarget "UIActivityViewControllerShareDemo" */;
+			buildPhases = (
+				BD80C815B1BA50F3153E69FA /* [CP] Check Pods Manifest.lock */,
+				5781DED227E999AC00A8F60D /* Sources */,
+				5781DED327E999AC00A8F60D /* Frameworks */,
+				5781DED427E999AC00A8F60D /* Resources */,
+				432494B43F71D5544A13E47B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIActivityViewControllerShareDemo;
+			productName = UIActivityViewControllerShareDemo;
+			productReference = 5781DED627E999AC00A8F60D /* UIActivityViewControllerShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5781DEF027E999BA00A8F60D /* UIActivityViewControllerShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781DF0827E999BB00A8F60D /* Build configuration list for PBXNativeTarget "UIActivityViewControllerShareDemoTests" */;
+			buildPhases = (
+				60A7C1BA13B22F0E24766965 /* [CP] Check Pods Manifest.lock */,
+				5781DEED27E999BA00A8F60D /* Sources */,
+				5781DEEE27E999BA00A8F60D /* Frameworks */,
+				5781DEEF27E999BA00A8F60D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5781DEF327E999BA00A8F60D /* PBXTargetDependency */,
+			);
+			name = UIActivityViewControllerShareDemoTests;
+			productName = UIActivityViewControllerShareDemoTests;
+			productReference = 5781DEF127E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5781DEFA27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781DF0B27E999BB00A8F60D /* Build configuration list for PBXNativeTarget "UIActivityViewControllerShareDemoUITests" */;
+			buildPhases = (
+				65D2807DF0DF0E061916AC71 /* [CP] Check Pods Manifest.lock */,
+				5781DEF727E999BA00A8F60D /* Sources */,
+				5781DEF827E999BA00A8F60D /* Frameworks */,
+				5781DEF927E999BA00A8F60D /* Resources */,
+				CD5B0083970FD9AA6644B38B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5781DEFD27E999BA00A8F60D /* PBXTargetDependency */,
+			);
+			name = UIActivityViewControllerShareDemoUITests;
+			productName = UIActivityViewControllerShareDemoUITests;
+			productReference = 5781DEFB27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5781DECE27E999AB00A8F60D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5781DED527E999AC00A8F60D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5781DEF027E999BA00A8F60D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5781DED527E999AC00A8F60D;
+					};
+					5781DEFA27E999BA00A8F60D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5781DED527E999AC00A8F60D;
+					};
+				};
+			};
+			buildConfigurationList = 5781DED127E999AB00A8F60D /* Build configuration list for PBXProject "UIActivityViewControllerShareDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5781DECD27E999AB00A8F60D;
+			productRefGroup = 5781DED727E999AC00A8F60D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5781DED527E999AC00A8F60D /* UIActivityViewControllerShareDemo */,
+				5781DEF027E999BA00A8F60D /* UIActivityViewControllerShareDemoTests */,
+				5781DEFA27E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5781DED427E999AC00A8F60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5781DEE927E999BA00A8F60D /* LaunchScreen.storyboard in Resources */,
+				5781DEE627E999BA00A8F60D /* Assets.xcassets in Resources */,
+				5781DF1F27E9B1FC00A8F60D /* ShareDemoTableViewCell.xib in Resources */,
+				5781DEE427E999AC00A8F60D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781DEEF27E999BA00A8F60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781DEF927E999BA00A8F60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432494B43F71D5544A13E47B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIActivityViewControllerShareDemo/Pods-UIActivityViewControllerShareDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIActivityViewControllerShareDemo/Pods-UIActivityViewControllerShareDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIActivityViewControllerShareDemo/Pods-UIActivityViewControllerShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A7C1BA13B22F0E24766965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIActivityViewControllerShareDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D2807DF0DF0E061916AC71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD80C815B1BA50F3153E69FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIActivityViewControllerShareDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5B0083970FD9AA6644B38B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5781DED227E999AC00A8F60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5781DF2627E9C7AC00A8F60D /* UIImage+AppIcon.m in Sources */,
+				5781DEE127E999AC00A8F60D /* ViewController.m in Sources */,
+				5781DEDB27E999AC00A8F60D /* AppDelegate.m in Sources */,
+				5781DF1A27E9AB6800A8F60D /* ShareModel.m in Sources */,
+				5781DF1727E9A20B00A8F60D /* BaseTableViewController.m in Sources */,
+				5781DF1E27E9B1FC00A8F60D /* ShareDemoTableViewCell.m in Sources */,
+				5781DF2227E9C60900A8F60D /* ShareViewModel.m in Sources */,
+				5781DEEC27E999BA00A8F60D /* main.m in Sources */,
+				5781DEDE27E999AC00A8F60D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781DEED27E999BA00A8F60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5781DEF627E999BA00A8F60D /* UIActivityViewControllerShareDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5781DEF727E999BA00A8F60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5781DF0027E999BA00A8F60D /* UIActivityViewControllerShareDemoUITests.m in Sources */,
+				5781DF0227E999BA00A8F60D /* UIActivityViewControllerShareDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5781DEF327E999BA00A8F60D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5781DED527E999AC00A8F60D /* UIActivityViewControllerShareDemo */;
+			targetProxy = 5781DEF227E999BA00A8F60D /* PBXContainerItemProxy */;
+		};
+		5781DEFD27E999BA00A8F60D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5781DED527E999AC00A8F60D /* UIActivityViewControllerShareDemo */;
+			targetProxy = 5781DEFC27E999BA00A8F60D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5781DEE227E999AC00A8F60D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5781DEE327E999AC00A8F60D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5781DEE727E999BA00A8F60D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5781DEE827E999BA00A8F60D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5781DF0327E999BB00A8F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5781DF0427E999BB00A8F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5781DF0627E999BB00A8F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E3259A27D6AB2213E7AA18 /* Pods-UIActivityViewControllerShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIActivityViewControllerShareDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.eye.UIActivityViewControllerShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5781DF0727E999BB00A8F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E10D3D2DBDC51CCF2D02649 /* Pods-UIActivityViewControllerShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UIActivityViewControllerShareDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.eye.UIActivityViewControllerShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5781DF0927E999BB00A8F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8469EB01265B5793C85B39B8 /* Pods-UIActivityViewControllerShareDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.eye.UIActivityViewControllerShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIActivityViewControllerShareDemo.app/UIActivityViewControllerShareDemo";
+			};
+			name = Debug;
+		};
+		5781DF0A27E999BB00A8F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD9DF170CAB1DEEB40F396A /* Pods-UIActivityViewControllerShareDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.eye.UIActivityViewControllerShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIActivityViewControllerShareDemo.app/UIActivityViewControllerShareDemo";
+			};
+			name = Release;
+		};
+		5781DF0C27E999BB00A8F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE9461BB63EB27016516AD6 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.eye.UIActivityViewControllerShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIActivityViewControllerShareDemo;
+			};
+			name = Debug;
+		};
+		5781DF0D27E999BB00A8F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A87C539B52F54AF0937ED1 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.eye.UIActivityViewControllerShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIActivityViewControllerShareDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5781DED127E999AB00A8F60D /* Build configuration list for PBXProject "UIActivityViewControllerShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781DF0327E999BB00A8F60D /* Debug */,
+				5781DF0427E999BB00A8F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781DF0527E999BB00A8F60D /* Build configuration list for PBXNativeTarget "UIActivityViewControllerShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781DF0627E999BB00A8F60D /* Debug */,
+				5781DF0727E999BB00A8F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781DF0827E999BB00A8F60D /* Build configuration list for PBXNativeTarget "UIActivityViewControllerShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781DF0927E999BB00A8F60D /* Debug */,
+				5781DF0A27E999BB00A8F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781DF0B27E999BB00A8F60D /* Build configuration list for PBXNativeTarget "UIActivityViewControllerShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781DF0C27E999BB00A8F60D /* Debug */,
+				5781DF0D27E999BB00A8F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5781DECE27E999AB00A8F60D /* Project object */;
+}

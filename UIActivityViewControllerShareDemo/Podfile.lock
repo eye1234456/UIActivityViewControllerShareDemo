@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - "MBProgressHUD+JDragon (0.0.5)":
+    - MBProgressHUD (~> 0.9.2)
+
+DEPENDENCIES:
+  - "MBProgressHUD+JDragon"
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - "MBProgressHUD+JDragon"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  "MBProgressHUD+JDragon": 15bf7583612f0bb9f0bcea634ba5eb247b17d014
+
+PODFILE CHECKSUM: bbda3e118ab27c51729d08b58ae1a5279b48df40
+
+COCOAPODS: 1.11.2
