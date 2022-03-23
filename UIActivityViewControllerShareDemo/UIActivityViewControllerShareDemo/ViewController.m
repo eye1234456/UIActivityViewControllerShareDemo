@@ -11,6 +11,7 @@
 #import "UIImage+AppIcon.h"
 #import "ShareModel.h"
 #import "ShareViewModel.h"
+#import "MyAlertView.h"
 
 typedef NS_ENUM(NSInteger, StyleShowType) {
     StyleShowTypeSystem, // 使用系统默认的方式，只能配置分享内容的方式
@@ -23,7 +24,10 @@ typedef NS_ENUM(NSInteger, StyleShowType) {
 @property(nonatomic, assign) BOOL showAlertView;
 @property(nonatomic, strong) UISegmentedControl *segmentedControl;
 @property(nonatomic, strong) UIButton *rightBtn;
-@property(nonatomic, weak) UIView *alertView;
+
+
+@property(nonatomic, weak) MyAlertView *alertView;
+@property(nonatomic, weak) UIActivityViewController *activityVC;
 @end
 
 @implementation ViewController
@@ -97,6 +101,12 @@ typedef NS_ENUM(NSInteger, StyleShowType) {
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     ShareModel *model = self.dataList[indexPath.row];
+    // 展示一个弹窗来做获取高的demo
+    if (self.showAlertView) {
+        MyAlertView *redView = [[MyAlertView alloc] initWithFrame:self.view.bounds];
+        self.alertView = redView;
+        [self.view addSubview:redView];
+    }
     [self showNormalActivityWithModel:model];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
@@ -124,7 +134,7 @@ typedef NS_ENUM(NSInteger, StyleShowType) {
     
     
     UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];
-
+    self.activityVC = activityVC;
     __weak typeof(self) weakself = self;
     activityVC.completionWithItemsHandler = ^(UIActivityType  _Nullable activityType, BOOL completed, NSArray * _Nullable returnedItems, NSError * _Nullable activityError) {
         if (activityType == nil && activityError == nil && completed == NO) {
@@ -143,6 +153,7 @@ typedef NS_ENUM(NSInteger, StyleShowType) {
        }else {
 
        }
+        // 有弹窗时，activity出现，需要把弹窗提高
         if (weakself.showAlertView) {
             [weakself updateShareFrameChangeWithType:activityType completed:completed returnedItems:returnedItems activityError:activityError];
         }
@@ -150,13 +161,28 @@ typedef NS_ENUM(NSInteger, StyleShowType) {
     };
     
     [self presentViewController:activityVC animated:YES completion:^{
+        // 有弹窗时，activity出现，需要把弹窗提高
         if (weakself.showAlertView) {
-            UIView *redView = [UIView new];
-            redView.frame = CGRectMake(0, 0, 200, 200);
-            weakself.alertView = redView;
-            [weakself.view addSubview:redView];
+            [weakself updateAlertShow];
         }
     }];
+}
+
+- (void)updateAlertShow {
+    // 默认中心点在view的中心上
+    CGFloat oldCenterY = self.view.bounds.size.height/2;
+    // 升起后中心底部靠近弹窗，中心点=底部弹窗高度+redView高度/2
+    CGFloat newCenterY = self.activityVC.view.bounds.size.height + self.alertView.redView.bounds.size.height/2;
+    CGFloat offsetY = oldCenterY - newCenterY;
+    // 最高移动是redView顶部与self.view顶部碰在一起
+    CGFloat maxOffset = -(self.view.bounds.size.height-self.alertView.redView.bounds.size.height)/2;
+    if (offsetY > 0) {
+        offsetY = 0;
+    }
+    if (offsetY < maxOffset) {
+        offsetY = maxOffset;
+    }
+    [self.alertView setOffsetY:offsetY];
 }
 
 - (void)updateShareFrameChangeWithType:(UIActivityType)activityType
@@ -165,13 +191,12 @@ typedef NS_ENUM(NSInteger, StyleShowType) {
                          activityError:(NSError *)activityError {
     if (activityType == nil && activityError == nil && completed == NO) {
         // 关闭了，需要展示
+        [self.alertView setOffsetY:0];
     }else if (activityType != nil && completed) {
        // 分享成功,
-       
+        [self.alertView setOffsetY:0];
    }else if (activityType != nil && activityError != nil) {
        // 操作失败
-       
-
    }else if (activityType != nil && completed == NO) {
        // 操作失败
        // 备忘录取消操作

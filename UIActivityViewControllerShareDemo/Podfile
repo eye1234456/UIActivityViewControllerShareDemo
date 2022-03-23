@@ -7,6 +7,7 @@ target 'UIActivityViewControllerShareDemo' do
 
   # Pods for UIActivityViewControllerShareDemo
   pod 'MBProgressHUD+JDragon'
+  pod 'Masonry'
 
   target 'UIActivityViewControllerShareDemoTests' do
     inherit! :search_paths

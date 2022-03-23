@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F26AC6B8AFB057E87AAF648 /* Pods_UIActivityViewControllerShareDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F2AC747E547EB7AA9D270E /* Pods_UIActivityViewControllerShareDemoTests.framework */; };
+		5737EB0427EAC33500FB2852 /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5737EB0327EAC33500FB2852 /* MyAlertView.m */; };
 		5781DEDB27E999AC00A8F60D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEDA27E999AC00A8F60D /* AppDelegate.m */; };
 		5781DEDE27E999AC00A8F60D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEDD27E999AC00A8F60D /* SceneDelegate.m */; };
 		5781DEE127E999AC00A8F60D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5781DEE027E999AC00A8F60D /* ViewController.m */; };
@@ -50,6 +51,8 @@
 		18F2AC747E547EB7AA9D270E /* Pods_UIActivityViewControllerShareDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIActivityViewControllerShareDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E3259A27D6AB2213E7AA18 /* Pods-UIActivityViewControllerShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemo/Pods-UIActivityViewControllerShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4FE9461BB63EB27016516AD6 /* Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests/Pods-UIActivityViewControllerShareDemo-UIActivityViewControllerShareDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5737EB0227EAC33500FB2852 /* MyAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		5737EB0327EAC33500FB2852 /* MyAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
 		5781DED627E999AC00A8F60D /* UIActivityViewControllerShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIActivityViewControllerShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5781DED927E999AC00A8F60D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5781DEDA27E999AC00A8F60D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 				5781DF1B27E9B1FC00A8F60D /* ShareDemoTableViewCell.h */,
 				5781DF1C27E9B1FC00A8F60D /* ShareDemoTableViewCell.m */,
 				5781DF1D27E9B1FC00A8F60D /* ShareDemoTableViewCell.xib */,
+				5737EB0227EAC33500FB2852 /* MyAlertView.h */,
+				5737EB0327EAC33500FB2852 /* MyAlertView.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 				5781DEDB27E999AC00A8F60D /* AppDelegate.m in Sources */,
 				5781DF1A27E9AB6800A8F60D /* ShareModel.m in Sources */,
 				5781DF1727E9A20B00A8F60D /* BaseTableViewController.m in Sources */,
+				5737EB0427EAC33500FB2852 /* MyAlertView.m in Sources */,
 				5781DF1E27E9B1FC00A8F60D /* ShareDemoTableViewCell.m in Sources */,
 				5781DF2227E9C60900A8F60D /* ShareViewModel.m in Sources */,
 				5781DEEC27E999BA00A8F60D /* main.m in Sources */,
