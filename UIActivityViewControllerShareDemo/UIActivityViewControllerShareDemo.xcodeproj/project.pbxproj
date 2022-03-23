@@ -659,6 +659,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIActivityViewControllerShareDemo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(DISPLAY_NAME)需要你的同意，才能添加图片到相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(DISPLAY_NAME)想要访问您的相册,请允许";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -687,6 +689,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIActivityViewControllerShareDemo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(DISPLAY_NAME)需要你的同意，才能添加图片到相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(DISPLAY_NAME)想要访问您的相册,请允许";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
