@@ -5,7 +5,7 @@
 //  Created by Flow on 3/22/22.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "ShareModel.h"
 
 NS_ASSUME_NONNULL_BEGIN

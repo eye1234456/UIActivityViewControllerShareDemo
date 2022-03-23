@@ -7,7 +7,7 @@
 
 #import "MyAlertView.h"
 #import <Masonry/Masonry.h>
-#define kRedSize CGSizeMake(300, 300)
+#define kRedSize CGSizeMake(250, 200)
 
 @interface MyAlertView()
 

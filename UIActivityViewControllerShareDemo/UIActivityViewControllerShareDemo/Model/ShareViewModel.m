@@ -6,7 +6,6 @@
 //
 
 #import "ShareViewModel.h"
-#import <UIKit/UIKit.h>
 #import <LinkPresentation/LPLinkMetadata.h>
 
 @interface ShareViewModel() <UIActivityItemSource>
@@ -20,10 +19,11 @@
     return vm;
 }
 #pragma mark - UIActivityItemSource protocol procedures to support sharesheet
-/// called to determine data type. only the class of the return type is consulted. it should match what -itemForActivityType: returns later
+/**
+ * 告诉系统分享的类型同类型的数据
+ */
 - (id)activityViewControllerPlaceholderItem:(UIActivityViewController *)activityViewController
 {
-    // 告诉系统分享的类型同类型的数据
     return self.model.data;
 }
 /**
@@ -35,6 +35,9 @@
     return self.model.data;
 }
 
+/**
+ * UIActivityViewController弹窗上展示的icon、主标题、子标题配置
+ */
 - (LPLinkMetadata *)activityViewControllerLinkMetadata:(UIActivityViewController *)activityViewController  API_AVAILABLE(ios(13.0)){
     
     LPLinkMetadata * metaData = [[LPLinkMetadata alloc] init];
