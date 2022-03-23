@@ -7,6 +7,10 @@ UIActivityShareDemo
 demo: 
 https://github.com/eye1234456/UIActivityViewControllerShareDemo
 
+![普通分享](https://raw.githubusercontent.com/eye1234456/UIActivityViewControllerShareDemo/main/snapshots/normal.gif)
+
+![自定义分享](https://raw.githubusercontent.com/eye1234456/UIActivityViewControllerShareDemo/main/snapshots/custom.gif)
+
 ####一、普通使用方式
 优点：调用简单，系统会自动根据分享的内容展示不同的UI样式及可分享的三方app和系统功能
 
@@ -212,3 +216,5 @@ NS_ASSUME_NONNULL_END
 增加 `Privacy - Photo Library Additions Usage Description`设置成`$(DISPLAY_NAME)需要你的同意，才能添加图片到相册`
 
 增加 `Privacy - Photo Library Usage Description`设置成`$(DISPLAY_NAME)想要访问您的相册,请允许`
+
+![info.plist配置](https://raw.githubusercontent.com/eye1234456/UIActivityViewControllerShareDemo/main/snapshots/info.png)
